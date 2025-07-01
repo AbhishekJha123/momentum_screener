@@ -188,7 +188,6 @@ def main():
             logger.info("Scan completed. Waiting 5 minutes for next run...")
         else:
             logger.info("Market closed. Waiting for next open market hour...")
-
         time.sleep(300)
 
 if __name__ == "__main__":
